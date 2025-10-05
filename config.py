@@ -1,0 +1,6 @@
+SERVER_HOST = "0.0.0.0"
+SERVER_PORT = "8000"
+VERSION = "0.0.0"
+
+API_URL = f"http://{SERVER_HOST}:{SERVER_PORT}"
+WS_URL = f"ws://{SERVER_HOST}:{SERVER_PORT}/ws/message"
